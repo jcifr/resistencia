@@ -1,0 +1,39 @@
+Introduccíon a la Elasticidad y Resistencia de Materiales
+=========================================================
+
+Mecánica del Sólido Rígido y Mecánica del Sólido Deformable
+___________________________________________________________
+
+La Mecánica, que proviene de la palabra *mechanica* en latín que significa arte de construir una máquina, es la rama
+de la física que estudia y analiza el movimiento y reposo de los cuerpos, y su evolución en el tiempo, bajo la acción de fuerzas.
+Las hipótesis básicas de la Mecánica de sólidos se enumeran a continuación:
+
+#. Se consideran las ecuaciones de la Mecánica de Newton
+#. El sólido es un medio continuo
+#. Se cumplen las leyes básicas de la Termodinámica (conservación de la energía y producción de entropía)
+
+La segunda hipótesis implica que el sólido no tiene discontinuidades a nivel microscópico como
+consecuencia de la distribución molecular de cada material.
+Es decir, se ignora la existencia de estructuras a nivel microscópico (moleculares, atómicas, cristalinas
+o granulares), considerando que el comportamiento a nivel macroscópico es independiente de tal estructura
+(salvo a través de relaciones experimentales que se traducen en la relación de comportamiento).
+Esta hipótesis se justifica por las pequeñas dimensiones de los constituyentes microscópicos
+(moléculas, cristales o granos) en comparación con las dimensiones significativas del sólido
+(distribución de los apoyos o de las cargas y dimensiones propias del sólido)
+y permite trabajar con un espacio continuo y utilizar las herramientas que proporciona el análisis diferencial.
+
+Sólido Rígido
+^^^^^^^^^^^^^
+
+Si un sólido sometido a un conjunto de fuerzas alcanza el equilibrio sin sufrir modificaciones de su forma original,
+o dichas modificaciones son despreciables respecto a su movimiento, se denomina Sólido Rígido.
+Un Sólido Rígido se caracteriza por una distribución continua de la materia y por la invariabilidad
+de las distancias relativas entre cualesquiera de los puntos que lo constituyen.
+Las ecuaciones de la estática, de la cinemática y de la dinámica son suficientes para definir el comportamiento de
+este tipo de sólidos.
+
+.. figure:: Tema1/images/1-1.jpg
+   :figwidth: 80%
+   :scale: 30 %
+   :alt: alternate text
+   :align: center
