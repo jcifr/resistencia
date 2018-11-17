@@ -72,11 +72,154 @@ Un Sólido Rígido se caracteriza por una distribución continua de la materia y
 de las distancias relativas entre cualesquiera de los puntos que lo constituyen.
 Las ecuaciones de la estática, de la cinemática y de la dinámica son suficientes para definir el comportamiento de
 este tipo de sólidos.</p>
-<div class="figure align-center" id="label" style="width: 80%">
-<a class="reference internal image-reference" href="../_images/1-1.jpg"><img alt="alternate text" src="../_images/1-1.jpg" style="width: 230.7px; height: 146.1px;" /></a>
+<div class="figure align-center" id="id2" style="width: 80%">
+<span id="solidorigido"></span><a class="reference internal image-reference" href="../_images/1-1.jpg"><img alt="solido_rigido" src="../_images/1-1.jpg" style="width: 307.6px; height: 194.8px;" /></a>
+<p class="caption"><span class="caption-number">Figura 1.1 </span><span class="caption-text">Sólido Rígido</span></p>
 </div>
-<p>En la figura <code class="xref std std-numref docutils literal"><span class="pre">label</span></code></p>
+<p>La <a class="reference internal" href="#solidorigido"><span class="std std-numref">Figura 1.1</span></a> muestra un sólido con una forma genérica al que se aplica
+un sistema de fuerzas.
+Como consecuencia de las fuerzas aplicadas el sólido se traslada y gira sin deformarse, es decir,
+se comporta como un Sólido Rígido.</p>
 </div>
+<div class="section" id="solido-deformable">
+<h3>1.1.2. Sólido Deformable<a class="headerlink" href="#solido-deformable" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Si un sólido sometido a un conjunto de fuerzas alcanza el equilibrio produciéndose modificaciones
+en su forma original, debemos adoptar el modelo de Sólido Deformable.
+Dicho modelo considera una distribución continua de la materia, así como la variación, también continua,
+de las distancias entre cualesquiera de los puntos que lo constituyen.
+Para establecer las ecuaciones generales que gobiernan el comportamiento mecánico de los sólidos deformables,
+es necesario complementar las ecuaciones de la estática, cinemática y dinámica con ecuaciones que relacionen
+las modificaciones de forma del sólido con las fuerzas que se producen en el interior del mismo debidas
+a este cambio de forma.</p>
+<div class="figure align-center" id="id3" style="width: 80%">
+<span id="solidodeformable"></span><a class="reference internal image-reference" href="temas/images/1-2.jpg"><img alt="solido_deformable" src="temas/images/1-2.jpg" /></a>
+<p class="caption"><span class="caption-number">Figura 1.2 </span><span class="caption-text">Sólido Deformable</span></p>
+</div>
+<p>La <code class="xref std std-numref docutils literal"><span class="pre">solidodeformable</span></code> muestra un sólido con una forma genérica al que se aplica un sistema fuerzas.
+Como consecuencia de las fuerzas aplicadas el sólido se traslada, gira y deforma, es decir, se comporta como un Sólido Deformable.</p>
+</div>
+</div>
+<div class="section" id="hipotesis-basicas-de-la-elasticidad-y-de-la-resistencia-de-materiales">
+<h2>1.2. Hipótesis básicas de la Elasticidad y de la Resistencia de Materiales<a class="headerlink" href="#hipotesis-basicas-de-la-elasticidad-y-de-la-resistencia-de-materiales" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La cinemática y dinámica de sólidos deformables queda definida mediante la imposición de las hipótesis
+básicas establecidas en el apartado 1.1. Dichas hipótesis dejan el campo de estudio del sólido deformable
+muy abierto, por lo que se suele acotar estableciendo hipótesis adicionales.
+Una simplificación al problema general del sólido deformable consiste en plantear el comportamiento
+del mismo como lineal, lo que implica asumir tres hipótesis adicionales:</p>
+<ol class="arabic simple">
+<li>Pequeños desplazamientos</li>
+<li>Pequeñas deformaciones</li>
+<li>Comportamiento elástico y lineal del material</li>
+</ol>
+<div class="section" id="pequenos-desplazamientos">
+<h3>1.2.1. Pequeños desplazamientos<a class="headerlink" href="#pequenos-desplazamientos" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>La hipótesis de pequeños desplazamientos implica que los desplazamientos del sólido son tan pequeños
+que las ecuaciones de equilibrio pueden plantearse, sin error apreciable, en la posición inicial.</p>
+<div class="figure align-center" id="id4" style="width: 80%">
+<span id="id1"></span><a class="reference internal image-reference" href="temas/images/1-3.pdf"><img alt="solido_deformable" src="temas/images/1-3.pdf" /></a>
+<p class="caption"><span class="caption-number">Figura 1.3 </span><span class="caption-text">Sólido Deformable</span></p>
+</div>
+<p>En la Figura 1.3 se muestra un pórtico sometido a dos sistemas de fuerzas y la deformada debida
+a cada uno de estos sistemas de fuerzas. El comportamiento de la estructura de la Figura 1.3 a)
+frente al sistema de cargas actuante puede considerarse dentro de la hipótesis de pequeños
+desplazamientos. La deformada coincide prácticamente con la configuración inicial del pórtico.
+En la estructura de la Figura 1.3 b) la configuración deformada de la estructura difiere sustancialmente de la configuración
+inicial. Por tanto, no es correcto plantear las ecuaciones de equilibrio en la configuración anterior
+a la aplicación del sistema de cargas, ya que los resultados obtenidos no tendrían en cuenta los
+grandes desplazamientos que ha sufrido la estructura.</p>
+</div>
+<div class="section" id="pequenas-deformaciones">
+<h3>1.2.2. Pequeñas deformaciones<a class="headerlink" href="#pequenas-deformaciones" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>La hipótesis de pequeñas deformaciones supone que las derivadas de los desplazamientos son despreciables frente a la unidad,
+y los productos de derivadas son despreciables frente a las propias derivadas. Esto implica que las deformaciones se expresen como
+combinación lineal de las derivadas primeras de los desplazamientos. Por ejemplo 
+siendo  la deformación, y  y  los desplazamientos.</p>
+</div>
+<div class="section" id="comportamiento-elastico-y-lineal-del-material">
+<h3>1.2.3. Comportamiento elástico y lineal del material<a class="headerlink" href="#comportamiento-elastico-y-lineal-del-material" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>En todo punto de un sólido de un determinado material existe una relación entre las tensiones y las deformaciones
+en dicho punto al someter al sólido a un sistema cualesquiera de cargas.
+Si el sólido recupera su forma inicial al cesar la aplicación de las cargas, se dice que el material tiene un comportamiento elástico.
+Si además, la relación entre tensiones y deformaciones es lineal, se dice que el material tiene un comportamiento elástico y lineal.</p>
+<p>Las tres hipótesis anteriores son necesarias y suficientes para considerar el sóolido deformable como elástico y lineal.
+Además de las tres hipótesis anteriores, en el estudio de la Elasticidad Lineal y de la Resistencia de Materiales,
+se suponen estas otras hipótesis:</p>
+<ul class="simple">
+<li>Principio de Saint-Venant</li>
+<li>El material es homogéneo</li>
+<li>El material es isótropo</li>
+<li>El problema es estático</li>
+<li>El problema es isotermo</li>
+</ul>
+</div>
+<div class="section" id="principio-de-saint-venant">
+<h3>1.2.4. Principio de Saint-Venant<a class="headerlink" href="#principio-de-saint-venant" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>El Principio de Saint-Venant establece que sistemas estáticamente equivalentes producen los mismos efectos.
+La Figura 1.4 muestra dos placas rectangulares, de idénticas dimensiones, que se encuentran empotradas en un extremo y sometidas a
+una carga uniformemente distribuida en el otro. En la placa de la Figura 1.4 a), la carga se distribuye uniformemente en la dimensión
+h1, mientras que en la placa de la Figura 1.4 b) la carga se distribuye uniformemente sobre la dimensón h2.
+En ambos casos la resultante de la distribución de fuerzas aplicadas sobre cada placa es qh1. Además, la distribución de tensiones
+normales en la dirección de la carga se ha representado sobre la superficie de cada placa, mostrando como se transmite la carga
+hasta el apoyo en cada una de las placas. Para la placa que se muestra en la Figura 1.4 a) podemos observar como la carga se
+transmite hasta el apoyo de forma uniforme. Sin embargo, en el caso de la placa que se muestra en la Figura 1.4 b), se advierte
+una alteración en la distribución de las tensiones normales hasta una cierta distancia de la zona de aplicación de la carga,
+a partir de la cual la carga se transmite hasta el apoyo de forma uniforme, como en el caso de la placa que se muestra en
+la Figura 1.4 a). Podemos concluir que la aplicación de la carga en un tramo limitado puede considerarse como una discontinuidad
+que provoca alteraciones en la transmisión de la carga. No obstante, a una distancia suficientemente alejada de la zona de aplicación,
+dicha discontinuidad no tiene afecto alguno.</p>
+</div>
+<div class="section" id="material-homogeneo">
+<h3>1.2.5. Material homogéneo<a class="headerlink" href="#material-homogeneo" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Considerar el material homogéneo significa que todos los puntos del mismo son iguales a efectos de comportamiento mecánico.
+Matemáticamente implica que la relación de comportamiento (relación entre tensiones y deformaciones) es similar en cualquier
+punto del material, y por tanto es independiente de las coordenadas del punto estudiado.</p>
+</div>
+<div class="section" id="material-isotropo">
+<h3>1.2.6. Material isótropo<a class="headerlink" href="#material-isotropo" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Un material isótropo es aquél cuyo comportamiento mecánico es independiente de la dirección considerada.</p>
+</div>
+<div class="section" id="problema-estatico">
+<h3>1.2.7. Problema estático<a class="headerlink" href="#problema-estatico" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Un problema es estático si se considera que los efectos de inercia son despreciables.
+Se considera que esto ocurre cuando las cargas exteriores se aplican lentamente, permanecen invariables con el tiempo,
+y el sólido tiene impedidos los desplazamientos como sólido rígido que puedan inducir las cargas actuantes.</p>
+</div>
+<div class="section" id="problema-isotermo">
+<h3>1.2.8. Problema isotermo<a class="headerlink" href="#problema-isotermo" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>En un problema isotermo no se producen variaciones de la temperatura, o al menos, el efecto de dicha variación es despreciable.</p>
+</div>
+<div class="section" id="consecuencias-de-las-hipotesis-basicas-de-la-elasticidad-y-de-la-resistencia-de-materiales">
+<h3>1.2.9. Consecuencias de las hipótesis básicas de la Elasticidad y de la Resistencia de Materiales<a class="headerlink" href="#consecuencias-de-las-hipotesis-basicas-de-la-elasticidad-y-de-la-resistencia-de-materiales" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>El conjunto de hip ́otesis anteriores, implica las siguientes consecuencias:</p>
+<ol class="arabic simple">
+<li>Principio de Superposición</li>
+<li>Existencia y unicidad de la solución</li>
+</ol>
+<p>El <em>Principio de Superposición</em> supone que hay una relación lineal entre la respuesta estructural y las cargas actuantes.
+Esto permite obtener la respuesta de una estructura ante distintas cargas actuando simultáneamente como la suma de la respuesta
+de la estructura ante cada una de ellas. Este principio se utiliza para resolver problemas con sistemas de cargas muy complejos
+descomponiendo los estados de cargas en otros m ́as simples, cuya solución es conocida o m ́as fácil de obtener.
+En la Figura 1.5 se muestra una aplicación del Principio de Superposición.</p>
+<p>Figura 1.5</p>
+<p>La segunda consecuencia establece que siempre <em>existe</em> una solución a cualquier problema bien definido de mecánica de sólidos,
+y que esta solución es <em>única</em>.</p>
+</div>
+</div>
+<div class="section" id="modelo-matematico-para-el-analisis-de-solidos-deformables-ecuaciones-fundamentales">
+<h2>1.3. Modelo matemático para el análisis de Sólidos Deformables. Ecuaciones fundamentales<a class="headerlink" href="#modelo-matematico-para-el-analisis-de-solidos-deformables-ecuaciones-fundamentales" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El objetivo inicial del análisis de Sólidos Deformables consiste en establecer la relación entre las magnitudes estáticas
+externas (fuerzas) y las magnitudes cinemáticas externas (desplazamientos).</p>
+<p>Para establecer dicha relación, es necesario conocer que ocurre en el interior del
+sólido, definiéndose las <em>magnitudes internas</em>. Las magnitudes cinemáticas y estáticas internas se relacionan a través de la
+ley que modela el comportamiento del material, la cual es independiente de la geometría del sólido y de las condiciones de contorno.
+Las magnitudes estáticas externas se relacionan con las magnitudes estáticas internas a través de las ecuaciones de equilibrio.
+Mientras que las magnitudes cinemáticas externas se relacionan con las magnitudes cinemáticas internas a través de las ecuaciones
+de compatibilidad. De esta manera, se consigue relacionar las acciones externas con los desplazamientos del sólido a través
+de las variables internas.</p>
+<p>Figura 1.6</p>
+<p>En la Figura 1.6 se muestra esquemáticamente el modelo matemático de análisis.
+Generalmente, la formulación matemática de este esquema conduce a ecuaciones de gran complejidad cuya solución analítica
+es inabordable. Ello hace que la obtención de soluciones exactas quede restringida a sólidos con geometrías y cargas muy concretas.</p>
 </div>
 </div>
 
@@ -91,8 +234,22 @@ este tipo de sólidos.</p>
 <li><a class="reference internal" href="#">1. Introduccíon a la Elasticidad y Resistencia de Materiales</a><ul>
 <li><a class="reference internal" href="#mecanica-del-solido-rigido-y-mecanica-del-solido-deformable">1.1. Mecánica del Sólido Rígido y Mecánica del Sólido Deformable</a><ul>
 <li><a class="reference internal" href="#solido-rigido">1.1.1. Sólido Rígido</a></li>
+<li><a class="reference internal" href="#solido-deformable">1.1.2. Sólido Deformable</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#hipotesis-basicas-de-la-elasticidad-y-de-la-resistencia-de-materiales">1.2. Hipótesis básicas de la Elasticidad y de la Resistencia de Materiales</a><ul>
+<li><a class="reference internal" href="#pequenos-desplazamientos">1.2.1. Pequeños desplazamientos</a></li>
+<li><a class="reference internal" href="#pequenas-deformaciones">1.2.2. Pequeñas deformaciones</a></li>
+<li><a class="reference internal" href="#comportamiento-elastico-y-lineal-del-material">1.2.3. Comportamiento elástico y lineal del material</a></li>
+<li><a class="reference internal" href="#principio-de-saint-venant">1.2.4. Principio de Saint-Venant</a></li>
+<li><a class="reference internal" href="#material-homogeneo">1.2.5. Material homogéneo</a></li>
+<li><a class="reference internal" href="#material-isotropo">1.2.6. Material isótropo</a></li>
+<li><a class="reference internal" href="#problema-estatico">1.2.7. Problema estático</a></li>
+<li><a class="reference internal" href="#problema-isotermo">1.2.8. Problema isotermo</a></li>
+<li><a class="reference internal" href="#consecuencias-de-las-hipotesis-basicas-de-la-elasticidad-y-de-la-resistencia-de-materiales">1.2.9. Consecuencias de las hipótesis básicas de la Elasticidad y de la Resistencia de Materiales</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#modelo-matematico-para-el-analisis-de-solidos-deformables-ecuaciones-fundamentales">1.3. Modelo matemático para el análisis de Sólidos Deformables. Ecuaciones fundamentales</a></li>
 </ul>
 </li>
 </ul>
