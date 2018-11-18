@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Resistencia's documentation!
+Elasticidad y Resistencia de Materiales
 =======================================
 
 .. toctree::
@@ -12,6 +12,8 @@ Welcome to Resistencia's documentation!
    :caption: Contents:
 
    temas/tema1.rst
+   temas/tema2.rst
+
 
 
 

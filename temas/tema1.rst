@@ -1,6 +1,8 @@
 Introduccíon a la Elasticidad y Resistencia de Materiales
 =========================================================
 
+.. Mecánica del Sólido Rígido y Mecánica del Sólido Deformable:
+
 Mecánica del Sólido Rígido y Mecánica del Sólido Deformable
 ___________________________________________________________
 
@@ -74,7 +76,7 @@ Hipótesis básicas de la Elasticidad y de la Resistencia de Materiales
 _____________________________________________________________________
 
 La cinemática y dinámica de sólidos deformables queda definida mediante la imposición de las hipótesis
-básicas establecidas en el apartado 1.1. Dichas hipótesis dejan el campo de estudio del sólido deformable
+básicas establecidas en la :numref:`Mecánica del Sólido Rígido y Mecánica del Sólido Deformable`. Dichas hipótesis dejan el campo de estudio del sólido deformable
 muy abierto, por lo que se suele acotar estableciendo hipótesis adicionales.
 Una simplificación al problema general del sólido deformable consiste en plantear el comportamiento
 del mismo como lineal, lo que implica asumir tres hipótesis adicionales:
@@ -126,7 +128,7 @@ en dicho punto al someter al sólido a un sistema cualesquiera de cargas.
 Si el sólido recupera su forma inicial al cesar la aplicación de las cargas, se dice que el material tiene un comportamiento elástico.
 Si además, la relación entre tensiones y deformaciones es lineal, se dice que el material tiene un comportamiento elástico y lineal.
 
-Las tres hipótesis anteriores son necesarias y suficientes para considerar el sóolido deformable como elástico y lineal.
+Las tres hipótesis anteriores son necesarias y suficientes para considerar el sólido deformable como elástico y lineal.
 Además de las tres hipótesis anteriores, en el estudio de la Elasticidad Lineal y de la Resistencia de Materiales,
 se suponen estas otras hipótesis:
 
@@ -192,7 +194,7 @@ En un problema isotermo no se producen variaciones de la temperatura, o al menos
 Consecuencias de las hipótesis básicas de la Elasticidad y de la Resistencia de Materiales
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-El conjunto de hip ́otesis anteriores, implica las siguientes consecuencias:
+El conjunto de hipótesis anteriores, implica las siguientes consecuencias:
 
 #. Principio de Superposición
 #. Existencia y unicidad de la solución
@@ -200,7 +202,7 @@ El conjunto de hip ́otesis anteriores, implica las siguientes consecuencias:
 El *Principio de Superposición* supone que hay una relación lineal entre la respuesta estructural y las cargas actuantes.
 Esto permite obtener la respuesta de una estructura ante distintas cargas actuando simultáneamente como la suma de la respuesta
 de la estructura ante cada una de ellas. Este principio se utiliza para resolver problemas con sistemas de cargas muy complejos
-descomponiendo los estados de cargas en otros m ́as simples, cuya solución es conocida o m ́as fácil de obtener.
+descomponiendo los estados de cargas en otros más simples, cuya solución es conocida o más fácil de obtener.
 En la :numref:`superposicion` se muestra una aplicación del Principio de Superposición.
 
 .. _superposicion:
@@ -242,15 +244,3 @@ En la :numref:`Modelomatematico` se muestra esquemáticamente el modelo matemát
 Generalmente, la formulación matemática de este esquema conduce a ecuaciones de gran complejidad cuya solución analítica
 es inabordable. Ello hace que la obtención de soluciones exactas quede restringida a sólidos con geometrías
 y cargas muy concretas.
-
-
-
-
-
-
-
-
-
-
-
-
