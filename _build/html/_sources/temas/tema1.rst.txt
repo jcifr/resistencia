@@ -58,7 +58,7 @@ es necesario complementar las ecuaciones de la estática, cinemática y dinámic
 las modificaciones de forma del sólido con las fuerzas que se producen en el interior del mismo debidas
 a este cambio de forma.
 
-.. _solidodeformable:
+.. _solidodeformabl:
 .. figure:: images/1-2.jpg
    :figwidth: 80%
    :scale: 40 %
@@ -67,7 +67,7 @@ a este cambio de forma.
 
    Sólido Deformable
 
-La :numref:`solidodeformable` muestra un sólido con una forma genérica al que se aplica un sistema fuerzas.
+La :numref:`solidodeformabl` muestra un sólido con una forma genérica al que se aplica un sistema fuerzas.
 Como consecuencia de las fuerzas aplicadas el sólido se traslada, gira y deforma, es decir, se comporta como un Sólido Deformable.
 
 Hipótesis básicas de la Elasticidad y de la Resistencia de Materiales
@@ -91,20 +91,20 @@ Pequeños desplazamientos
 La hipótesis de pequeños desplazamientos implica que los desplazamientos del sólido son tan pequeños
 que las ecuaciones de equilibrio pueden plantearse, sin error apreciable, en la posición inicial.
 
-.. _solidodeformable:
-.. figure:: images/1-3.pdf
-   :figwidth: 80%
+.. _pequeñosdespla:
+.. figure:: images/1-3.jpg
+   :figwidth: 60%
    :scale: 40 %
-   :alt: solido_deformable
+   :alt: pequeños_desplazamientos
    :align: center
 
-   Sólido Deformable
+   Hipótesis de pequeños desplazamientos
 
-En la Figura 1.3 se muestra un pórtico sometido a dos sistemas de fuerzas y la deformada debida
-a cada uno de estos sistemas de fuerzas. El comportamiento de la estructura de la Figura 1.3 a)
+En la :numref:`pequeñosdespla` se muestra un pórtico sometido a dos sistemas de fuerzas y la deformada debida
+a cada uno de estos sistemas de fuerzas. El comportamiento de la estructura de la :numref:`pequeñosdespla` a)
 frente al sistema de cargas actuante puede considerarse dentro de la hipótesis de pequeños
 desplazamientos. La deformada coincide prácticamente con la configuración inicial del pórtico.
-En la estructura de la Figura 1.3 b) la configuración deformada de la estructura difiere sustancialmente de la configuración
+En la estructura de la :numref:`pequeñosdespla` b) la configuración deformada de la estructura difiere sustancialmente de la configuración
 inicial. Por tanto, no es correcto plantear las ecuaciones de equilibrio en la configuración anterior
 a la aplicación del sistema de cargas, ya que los resultados obtenidos no tendrían en cuenta los
 grandes desplazamientos que ha sufrido la estructura.
@@ -114,8 +114,9 @@ Pequeñas deformaciones
 
 La hipótesis de pequeñas deformaciones supone que las derivadas de los desplazamientos son despreciables frente a la unidad,
 y los productos de derivadas son despreciables frente a las propias derivadas. Esto implica que las deformaciones se expresen como
-combinación lineal de las derivadas primeras de los desplazamientos. Por ejemplo :math:`\epsilon_{ij}=`
-siendo :math:`\epsilon_{ij}` la deformación, y :math:`u_i` y :math:`u_j` los desplazamientos.
+combinación lineal de las derivadas primeras de los desplazamientos. Por ejemplo
+:math:`\epsilon_{ij}=\frac{1}{2}\left ( \frac{\partial u_i}{\partial x_j}+\frac{\partial u_j}{\partial x_i} \right )` siendo :math:`\epsilon_{ij}`
+la deformación, y :math:`u_i` y :math:`u_j` los desplazamientos.
 
 Comportamiento elástico y lineal del material
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -139,16 +140,28 @@ Principio de Saint-Venant
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 El Principio de Saint-Venant establece que sistemas estáticamente equivalentes producen los mismos efectos.
-La Figura 1.4 muestra dos placas rectangulares, de idénticas dimensiones, que se encuentran empotradas en un extremo y sometidas a
-una carga uniformemente distribuida en el otro. En la placa de la Figura 1.4 a), la carga se distribuye uniformemente en la dimensión
-h1, mientras que en la placa de la Figura 1.4 b) la carga se distribuye uniformemente sobre la dimensón h2.
+
+.. _SaintVenant:
+.. figure:: images/1-4.jpg
+   :figwidth: 60%
+   :scale: 40 %
+   :alt: Saint-Venant
+   :align: center
+
+   Principio de Saint-Venant
+
+La :numref:`SaintVenant` muestra dos placas rectangulares, de idénticas dimensiones, que se encuentran empotradas en un extremo y sometidas a
+una carga uniformemente distribuida en el otro. En la placa de la :numref:`SaintVenant` a), la carga se distribuye uniformemente en la dimensión
+h1, mientras que en la placa de la :numref:`SaintVenant` b) la carga se distribuye uniformemente sobre la dimensón h2.
+
+
 En ambos casos la resultante de la distribución de fuerzas aplicadas sobre cada placa es qh1. Además, la distribución de tensiones
 normales en la dirección de la carga se ha representado sobre la superficie de cada placa, mostrando como se transmite la carga
-hasta el apoyo en cada una de las placas. Para la placa que se muestra en la Figura 1.4 a) podemos observar como la carga se
-transmite hasta el apoyo de forma uniforme. Sin embargo, en el caso de la placa que se muestra en la Figura 1.4 b), se advierte
+hasta el apoyo en cada una de las placas. Para la placa que se muestra en la :numref:`SaintVenant` a) podemos observar como la carga se
+transmite hasta el apoyo de forma uniforme. Sin embargo, en el caso de la placa que se muestra en la :numref:`SaintVenant` b), se advierte
 una alteración en la distribución de las tensiones normales hasta una cierta distancia de la zona de aplicación de la carga,
 a partir de la cual la carga se transmite hasta el apoyo de forma uniforme, como en el caso de la placa que se muestra en
-la Figura 1.4 a). Podemos concluir que la aplicación de la carga en un tramo limitado puede considerarse como una discontinuidad
+la :numref:`SaintVenant` a). Podemos concluir que la aplicación de la carga en un tramo limitado puede considerarse como una discontinuidad
 que provoca alteraciones en la transmisión de la carga. No obstante, a una distancia suficientemente alejada de la zona de aplicación,
 dicha discontinuidad no tiene afecto alguno.
 
@@ -188,9 +201,16 @@ El *Principio de Superposición* supone que hay una relación lineal entre la re
 Esto permite obtener la respuesta de una estructura ante distintas cargas actuando simultáneamente como la suma de la respuesta
 de la estructura ante cada una de ellas. Este principio se utiliza para resolver problemas con sistemas de cargas muy complejos
 descomponiendo los estados de cargas en otros m ́as simples, cuya solución es conocida o m ́as fácil de obtener.
-En la Figura 1.5 se muestra una aplicación del Principio de Superposición.
+En la :numref:`superposicion` se muestra una aplicación del Principio de Superposición.
 
-Figura 1.5
+.. _superposicion:
+.. figure:: images/1-5.jpg
+   :figwidth: 60%
+   :scale: 40 %
+   :alt: superposicion
+   :align: center
+
+   Principio de Superposición
 
 La segunda consecuencia establece que siempre *existe* una solución a cualquier problema bien definido de mecánica de sólidos,
 y que esta solución es *única*.
@@ -209,11 +229,19 @@ Mientras que las magnitudes cinemáticas externas se relacionan con las magnitud
 de compatibilidad. De esta manera, se consigue relacionar las acciones externas con los desplazamientos del sólido a través
 de las variables internas.
 
-Figura 1.6
+.. _Modelomatematico:
+.. figure:: images/1-6.jpg
+   :figwidth: 60%
+   :scale: 45 %
+   :alt: Modelo matemático
+   :align: center
 
-En la Figura 1.6 se muestra esquemáticamente el modelo matemático de análisis.
+   Modelo matemático para el análisis de sólidos deformables
+
+En la :numref:`Modelomatematico` se muestra esquemáticamente el modelo matemático de análisis.
 Generalmente, la formulación matemática de este esquema conduce a ecuaciones de gran complejidad cuya solución analítica
-es inabordable. Ello hace que la obtención de soluciones exactas quede restringida a sólidos con geometrías y cargas muy concretas.
+es inabordable. Ello hace que la obtención de soluciones exactas quede restringida a sólidos con geometrías
+y cargas muy concretas.
 
 
 
