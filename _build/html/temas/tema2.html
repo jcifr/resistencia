@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>2. Deformaciones &#8212; documentación de Resistencia - 1</title>
+    
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="prev" title="1. Introduccíon a la Elasticidad y Resistencia de Materiales" href="tema1.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="tema1.html" title="1. Introduccíon a la Elasticidad y Resistencia de Materiales"
+             accesskey="P">anterior</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de Resistencia - 1</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="deformaciones">
+<h1>2. Deformaciones<a class="headerlink" href="#deformaciones" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="concepto-de-deformacion">
+<h2>2.1. Concepto de deformación<a class="headerlink" href="#concepto-de-deformacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Las partículas que constituyen cualquier sólido real, bajo la acción de cargas que actúan sobre  él,
+varían su posición en el espacio. Por consiguiente, el sólido adopta una configuración deformada distinta de la inicial.</p>
+<div class="figure align-center" id="id1" style="width: 80%">
+<span id="conceptodedeformacion"></span><a class="reference internal image-reference" href="../_images/2-1.jpg"><img alt="Concepto de deformación" src="../_images/2-1.jpg" style="width: 416.8px; height: 321.6px;" /></a>
+<p class="caption"><span class="caption-number">Figura 2.1 </span><span class="caption-text">Concepto de deformación</span></p>
+</div>
+<p>Existe deformación en un sólido si se produce un desplazamiento relativo entre las partículas que lo constituyen.
+El desplazamiento de los puntos de un sólido es debido a dos componentes: una componente de movimiento como sólido rígido
+y otra de deformación. Así pues, el desplazamiento de los puntos de un sólido no implica necesariamente que éste se deforme.
+El rectángulo ABCD de la <a class="reference internal" href="#conceptodedeformacion"><span class="std std-numref">Figura 2.1</span></a> se desplaza hacia otra posición A′B′C′D′, pero es idéntico al inicial;
+es decir, no se ha producido ningún acercamiento o separación entre sus partículas, o lo que es lo mismo,
+no se ha producido ninguna deformación.</p>
+<p>Solamente se ha producido un movimiento como cuerpo rígido. Lo mismo ocurre al pasar a la posición A′′B′′C′′D′′ mediante una rotación
+como sólido rígido. Finalmente, cuando el rectángulo pasa a la posición A′′′B′′′C′′′D′′′, sí que se deforma.</p>
+<p>Los dos casos m ́as simples de deformación son el alargamiento unitario y la deformación tangencial.
+Un ejemplo de estos tipos de deformación se muestra en la <a class="reference internal" href="#ejemplos-de-deformacion"><span class="std std-numref">Figura 2.2</span></a>.</p>
+<div class="figure align-center" id="id2" style="width: 80%">
+<span id="ejemplos-de-deformacion"></span><a class="reference internal image-reference" href="../_images/2-2.jpg"><img alt="Concepto de deformación" src="../_images/2-2.jpg" style="width: 466.4px; height: 177.6px;" /></a>
+<p class="caption"><span class="caption-number">Figura 2.2 </span><span class="caption-text">Ejemplos de deformación: a) alargamiento en la dirección &#8220;x&#8221;,
+b) alargamiento en la dirección &#8220;y&#8221;, y c) deformación tangencial pura sin rotación</span></p>
+</div>
+<dl class="glossary docutils">
+<dt id="term-alargamiento-unitario">alargamiento unitario</dt>
+<dd></dd>
+</dl>
+<p>El <a class="reference internal" href="#term-alargamiento-unitario"><span class="xref std std-term">alargamiento unitario</span></a> se define como un cambio de longitud por unidad de longitud.</p>
+<p>Se denomina <span class="math">\(\epsilon\)</span>, indicando por medio de un subíndice la dirección del alargamiento.
+Observando la <a class="reference internal" href="#ejemplos-de-deformacion"><span class="std std-numref">Figura 2.2</span></a> a) y la <a class="reference internal" href="#ejemplos-de-deformacion"><span class="std std-numref">Figura 2.2</span></a> b), se deduce que</p>
+<p>ecuación 2.1</p>
+<p>La deformación tangencial se define como la mitad del decremento del ́angulo recto que forman inicialmente dos segmentos
+infinitamente pequeños. En referencia a la <a class="reference internal" href="#ejemplos-de-deformacion"><span class="std std-numref">Figura 2.2</span></a> c), la expresión de la deformación tangencial es</p>
+<p>ecuación 2.2</p>
+<p>ecuación 2.3</p>
+<p>ecuación 2.4</p>
+<p>Para obtener la expresión de la deformación tangencial se han aproximado los ángulos por sus tangentes
+(hipótesis de pequeños desplazamientos). El factor 1/2 en la deformación tangencial se debe a que las componentes
+de la deformación son las componentes de un tensor de segundo orden simétrico. De la expresión (2.2) se deduce que
+la deformación tangencial es positiva si el ángulo pasa a ser agudo.</p>
+</div>
+<div class="section" id="deformacion-en-el-entorno-de-un-punto">
+<h2>2.2. Deformación en el entorno de un punto<a class="headerlink" href="#deformacion-en-el-entorno-de-un-punto" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En la <a class="reference internal" href="#deformacion-de-una-viga"><span class="std std-numref">Figura 2.3</span></a> se muestra una viga biapoyada sometida a una carga puntual en su zona central,
+así como la configuración deformada de la misma.</p>
+<div class="figure align-center" id="id3" style="width: 80%">
+<span id="deformacion-de-una-viga"></span><a class="reference internal image-reference" href="../_images/2-3.jpg"><img alt="Deformación de una viga" src="../_images/2-3.jpg" style="width: 438.8px; height: 278.4px;" /></a>
+<p class="caption"><span class="caption-number">Figura 2.3 </span><span class="caption-text">Deformación de una viga biapoyada sometida a una carga puntual</span></p>
+</div>
+<p>Se aprecia la distorsión que sufre la malla superpuesta sobre la viga una vez deformada.
+Los cuadriláteros que forman la malla sufren un alargamiento o acortamiento de los lados que los forman y una variación
+de los  ángulos rectos iniciales.
+Es decir, la posición relativa entre los puntos del sólido ha variado, por lo que la viga se ha deformado.</p>
+<p>Para determinar la deformación producida se va a trabajar con dos puntos cualesquiera P0 y P de la viga, muy próximos,
+unidos por el vector de posición <span class="math">\(\vec{r}\)</span> que se muestra en la <a class="reference internal" href="#deformacionentornopunto"><span class="std std-numref">Figura 2.4</span></a> a).
+Al deformarse la viga, los puntos pasan, en la configuración deformada, a las posiciones <span class="math">\(P'_0\)</span> y <span class="math">\(P'\)</span> que se
+muestran en la <a class="reference internal" href="#deformacionentornopunto"><span class="std std-numref">Figura 2.4</span></a> b).
+Considerando la hipótesis de pequeños desplazamientos se admite que las configuraciones deformada e indeformada prácticamente coinciden.</p>
+<div class="figure align-center" id="id4" style="width: 80%">
+<span id="deformacionentornopunto"></span><a class="reference internal image-reference" href="../_images/2-4.jpg"><img alt="Deformación de una viga" src="../_images/2-4.jpg" style="width: 511.6px; height: 224.8px;" /></a>
+<p class="caption"><span class="caption-number">Figura 2.4 </span><span class="caption-text">Deformación en el entorno de un punto: a) configuración inicial <span class="math">\(P'_0\)</span> - P y b) configuración final <span class="math">\(P'_0\)</span> - <span class="math">\(P'\)</span></span></p>
+</div>
+<p>Denominamos vectores desplazamiento de los puntos <span class="math">\(P_0\)</span> y <span class="math">\(P\)</span> a <span class="math">\(u_0\)</span> y <span class="math">\(u\)</span>, respectivamente.
+Al estar muy próximos ambos puntos, es posible obtener el valor de <span class="math">\(\vec{u}\)</span> utilizando el desarrollo en serie de Taylor
+en el entorno del punto <span class="math">\(P_0\)</span> como sigue,</p>
+<div class="math" id="equation-taylor">
+<span class="eqno">(1)<a class="headerlink" href="#equation-taylor" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{split}\begin{equation}
+ \begin{split}
+   u=u_0+\frac{\partial u}{\partial x}r_x+\frac{\partial u}{\partial y}r_y+\frac{\partial u}{\partial z}r_z \\
+   v=v_0+\frac{\partial v}{\partial x}r_x+\frac{\partial v}{\partial y}r_y+\frac{\partial v}{\partial z}r_z \\
+   w=w_0+\frac{\partial w}{\partial x}r_x+\frac{\partial w}{\partial y}r_y+\frac{\partial w}{\partial z}r_z \\
+ \end{split}
+\end{equation}\end{split}\]</div>
+<p>donde <span class="math">\(u\)</span>, <span class="math">\(v\)</span> y <span class="math">\(w\)</span> son las componentes del desplazamiento en la dirección de los ejes <span class="math">\(x\)</span>
+, <span class="math">\(y\)</span> y <span class="math">\(z\)</span>, respectivamente.</p>
+<div class="figure align-center" id="id5" style="width: 80%">
+<span id="variaciondelvector"></span><a class="reference internal image-reference" href="../_images/2-5.jpg"><img alt="Deformación de una viga" src="../_images/2-5.jpg" style="width: 272.0px; height: 195.6px;" /></a>
+<p class="caption"><span class="caption-number">Figura 2.5 </span><span class="caption-text">Variación del vector <span class="math">\(r\)</span></span></p>
+</div>
+<p>Los términos del desarrollo de grado mayor a uno se han despreciado debido a la hipótesis de pequeñas deformaciones.
+La variación del vector <span class="math">\(\vec{r}\)</span> que se muestra en la <a class="reference internal" href="#variaciondelvector"><span class="std std-numref">Figura 2.5</span></a> será:</p>
+<div class="math" id="equation-vectorr">
+<span class="eqno">(2)<a class="headerlink" href="#equation-vectorr" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{equation}
+\Delta \vec{r}=\vec{r'}-\vec{r}=\vec{u}-\vec{u_0}
+\end{equation}\]</div>
+<p>Sustituyendo las expresiones <a class="reference internal" href="#equation-taylor">(1)</a> y <a class="reference internal" href="#equation-vectorr">(2)</a> y desarrollando esta última, se obtiene:</p>
+<div class="math" id="equation-taylor1">
+<span class="eqno">(3)<a class="headerlink" href="#equation-taylor1" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{split}\begin{equation}
+ \begin{split}
+   \Delta r_x=\frac{\partial u}{\partial x}r_x+\frac{\partial u}{\partial y}r_y+\frac{\partial u}{\partial z}r_z \\
+   \Delta r_y=\frac{\partial v}{\partial x}r_x+\frac{\partial v}{\partial y}r_y+\frac{\partial v}{\partial z}r_z \\
+   \Delta r_z=\frac{\partial w}{\partial x}r_x+\frac{\partial w}{\partial y}r_y+\frac{\partial w}{\partial z}r_z \\
+ \end{split}
+\end{equation}\end{split}\]</div>
+<p>Expresando <a class="reference internal" href="#equation-taylor1">(3)</a> en forma matricial se tiene:</p>
+<div class="math" id="equation-taylor2">
+<span class="eqno">(4)<a class="headerlink" href="#equation-taylor2" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{split}\begin{equation}
+ \begin{split}
+ \begin{pmatrix}
+ \Delta r_x \\
+ \Delta r_y \\
+ \Delta r_z \\
+ \end{pmatrix}=
+ \begin{pmatrix}
+ \frac{\partial u}{\partial x}&amp;\frac{\partial u}{\partial y}&amp;\frac{\partial u}{\partial z} \\
+ \frac{\partial v}{\partial x}&amp;\frac{\partial v}{\partial y}&amp;\frac{\partial v}{\partial z} \\
+ \frac{\partial w}{\partial x}&amp;\frac{\partial w}{\partial y}&amp;\frac{\partial w}{\partial z} \\
+ \end{pmatrix}
+ \begin{pmatrix}
+ r_x \\
+ r_y \\
+ r_z \\
+ \end{pmatrix}
+ \end{split}
+ \end{equation}\end{split}\]</div>
+<p>o lo que es lo mismo: <span class="math">\(\Delta r=J \cdot r\)</span></p>
+<p>Donde la &#8220;matriz&#8221; J se denomina tensor gradiente de desplazamientos.
+Dicho tensor se puede descomponer en un tensor simétrico y otro antisimétrico como sigue:</p>
+<div class="math" id="equation-tensordesplazamientos">
+<span class="eqno">(5)<a class="headerlink" href="#equation-tensordesplazamientos" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{equation}
+ J=\epsilon+\omega
+\end{equation}\]</div>
+<p>siendo <span class="math">\(\epsilon\)</span> es el tensor de pequen ̃as deformaciones, que desarrollando sus componentes
+se tiene:</p>
+<div class="math" id="equation-tensordeformaciones1">
+<span class="eqno">(6)<a class="headerlink" href="#equation-tensordeformaciones1" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{split} \begin{equation}
+ \begin{split}
+ \epsilon=
+ \begin{pmatrix}
+ \epsilon_{x}&amp; \epsilon_{xy}&amp; \epsilon_{xz} \\
+ \epsilon_{xy}&amp; \epsilon_{y}&amp; \epsilon_{yz} \\
+ \epsilon_{xz}&amp; \epsilon_{yz}&amp; \epsilon_{z} \\
+ \end{pmatrix}=
+ \begin{pmatrix}
+ \frac{\partial u}{\partial x}&amp; \frac{1}{2}\left (  \frac{\partial u}{\partial y}+ \frac{\partial v}{\partial x}\right )&amp; \frac{1}{2}\left (  \frac{\partial u}{\partial z}+ \frac{\partial w}{\partial x}\right ) \\
+ \frac{1}{2}\left (  \frac{\partial u}{\partial y}+ \frac{\partial v}{\partial x}\right ) &amp;   \frac{\partial v}{\partial y}&amp; \frac{1}{2}\left (  \frac{\partial v}{\partial z}+ \frac{\partial w}{\partial y}\right ) \\
+ \frac{1}{2}\left (  \frac{\partial u}{\partial z}+ \frac{\partial x}{\partial y}\right )&amp;\frac{1}{2}\left (  \frac{\partial v}{\partial z}+ \frac{\partial w}{\partial y}\right )&amp;\frac{\partial w}{\partial z} \\
+ \end{pmatrix}
+ \end{split}
+ \end{equation}\end{split}\]</div>
+<p>y <span class="math">\(\omega\)</span> es el tensor de rotación, que desarrollado tiene de componentes:</p>
+<div class="math" id="equation-tensorrotacion">
+<span class="eqno">(7)<a class="headerlink" href="#equation-tensorrotacion" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{split} \begin{equation}
+ \begin{split}
+ \omega=
+ \begin{pmatrix}
+ 0 &amp; \omega_{xy}&amp; \omega_{xz} \\
+ -\omega_{xy}&amp; 0 &amp; \omega_{yz} \\
+ -\omega_{xz}&amp; \omega_{yz}&amp; 0 \\
+ \end{pmatrix}=
+ \begin{pmatrix}
+ 0&amp; \frac{1}{2}\left (  \frac{\partial u}{\partial y}- \frac{\partial v}{\partial x}\right )&amp; \frac{1}{2}\left (  \frac{\partial u}{\partial z}- \frac{\partial w}{\partial x}\right ) \\
+ \frac{1}{2}\left (  \frac{\partial u}{\partial y}-\frac{\partial v}{\partial x}\right ) &amp;   0 &amp; \frac{1}{2}\left (  \frac{\partial v}{\partial z}- \frac{\partial w}{\partial y}\right ) \\
+ \frac{1}{2}\left (  \frac{\partial u}{\partial z}- \frac{\partial x}{\partial y}\right )&amp;\frac{1}{2}\left (  \frac{\partial v}{\partial z}- \frac{\partial w}{\partial y}\right )&amp; 0\\
+ \end{pmatrix}
+ \end{split}
+ \end{equation}\end{split}\]</div>
+<p>La expresión <a class="reference internal" href="#equation-taylor2">(4)</a> se puede expresar, en forma matricial, teniendo en cuenta <a class="reference internal" href="#equation-tensordesplazamientos">(5)</a> como:</p>
+<div class="math" id="equation-desplazamientos1">
+<span class="eqno">(8)<a class="headerlink" href="#equation-desplazamientos1" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{equation}
+ \Delta r=(\epsilon+\omega)r=u-u_0
+\end{equation}\]</div>
+<p>que coincide con la expresión <a class="reference internal" href="#equation-vectorr">(2)</a>, ésta expresada en forma vectorial.</p>
+<p>La ecuación anterior implica que la variación relativa de la distancia entre dos puntos infinitamente próximos
+de un sólido elástico se puede expresar sumando a <span class="math">\(\vec{u}\)</span> una componente de deformación y otra componente de giro.
+En forma matricial, puede expresarse como:</p>
+<div class="math" id="equation-desplazamientos2">
+<span class="eqno">(9)<a class="headerlink" href="#equation-desplazamientos2" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{equation}
+ u=u_0+\epsilon r+\omega r
+\end{equation}\]</div>
+<div class="figure align-center" id="id6" style="width: 80%">
+<span id="deformacion"></span><a class="reference internal image-reference" href="../_images/2-6.jpg"><img alt="Deformación de una viga" src="../_images/2-6.jpg" style="width: 482.0px; height: 238.8px;" /></a>
+<p class="caption"><span class="caption-number">Figura 2.6 </span><span class="caption-text">Deformación en el entorno de un punto: a) traslación y b) giro</span></p>
+</div>
+<p>En la <a class="reference internal" href="#deformacion"><span class="std std-numref">Figura 2.6</span></a> a) los puntos  <span class="math">\(P_0\)</span> y  <span class="math">\(P\)</span> (vector  <span class="math">\(vec{r}\)</span> ) han sufrido una traslación como
+sólido rígido hasta las posiciones  <span class="math">\(P'_0\)</span> y  <span class="math">\(P''\)</span> respectivamente, definida por el vector  <span class="math">\(u_0\)</span>.</p>
+<p>En la <a class="reference internal" href="#deformacion"><span class="std std-numref">Figura 2.6</span></a> b)se produce una rotación como sólido rígido del segmento <span class="math">\(P_0 P''\)</span> alrededor del punto <span class="math">\(P'_0\)</span>,
+de valor <span class="math">\(\omega^r\)</span> (<span class="math">\(\omega r\)</span>) (por la hipótesis de pequeños desplazamientos se aproxima
+el arco a la tangente).</p>
+<p>Finalmente, para pasar a la posición <span class="math">\(P'\)</span> se produce una deformación del vector <span class="math">\(\vec{r}\)</span> de valor <span class="math">\(\epsilon^r\)</span> (<span class="math">\(\epsilon r\)</span>).
+En la <a class="reference internal" href="#deformacion1"><span class="std std-numref">Figura 2.7</span></a> se muestra la descomposición completa de la deformación en el entorno de un punto.</p>
+<div class="figure align-center" id="id7" style="width: 80%">
+<span id="deformacion1"></span><a class="reference internal image-reference" href="../_images/2-7.jpg"><img alt="Deformación de una viga" src="../_images/2-7.jpg" style="width: 287.2px; height: 195.2px;" /></a>
+<p class="caption"><span class="caption-number">Figura 2.7 </span><span class="caption-text">Deformación en el entorno de un punto: descomposición</span></p>
+</div>
+<div class="section" id="vector-deformacion-componentes-intrinsecas">
+<h3>2.2.1. Vector deformación. Componentes intrínsecas<a class="headerlink" href="#vector-deformacion-componentes-intrinsecas" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>En todo punto de un sólido donde esté definido el tensor de pequeñas deformaciones, para cada dirección <span class="math">\(\vec{r}\)</span>
+hay asociado un vector deformación <span class="math">\(\vec{\epsilon^r}\)</span> que se calcula mediante la expresión matricial:</p>
+<div class="math" id="equation-vectordeformacion">
+<span class="eqno">(10)<a class="headerlink" href="#equation-vectordeformacion" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{split}\begin{equation}
+ \begin{split}
+ \epsilon^r=\epsilon r=
+ \begin{pmatrix}
+ \epsilon_{x}&amp; \epsilon_{xy}&amp; \epsilon_{xz} \\
+ \epsilon_{xy}&amp; \epsilon_{y}&amp; \epsilon_{yz} \\
+ \epsilon_{xz}&amp; \epsilon_{yz}&amp; \epsilon_{z} \\
+ \end{pmatrix}
+ \begin{pmatrix}
+ r_x \\
+ r_y \\
+ r_z \\
+ \end{pmatrix}
+ \end{split}
+ \end{equation}\end{split}\]</div>
+<p>Si se utiliza el vector unitario de <span class="math">\(\vec{r}\)</span> , denominado <span class="math">\(\vec{n}\)</span> , se obtiene el vector deformación unitaria
+<span class="math">\(\vec{\epsilon^n}\)</span></p>
+<div class="math" id="equation-vectordeformacionunitaria">
+<span class="eqno">(11)<a class="headerlink" href="#equation-vectordeformacionunitaria" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{split}\begin{equation}
+ \begin{split}
+ \epsilon^n=\epsilon n=
+ \begin{pmatrix}
+ \epsilon_{x}&amp; \epsilon_{xy}&amp; \epsilon_{xz} \\
+ \epsilon_{xy}&amp; \epsilon_{y}&amp; \epsilon_{yz} \\
+ \epsilon_{xz}&amp; \epsilon_{yz}&amp; \epsilon_{z} \\
+ \end{pmatrix}
+ \begin{pmatrix}
+ l \\
+ m \\
+ n \\
+ \end{pmatrix}
+ \end{split}
+ \end{equation}\end{split}\]</div>
+<p>siendo (l, m, n) los cosenos directores (las componentes) del vector <span class="math">\(\vec{n}\)</span>.</p>
+<p>La componente intrínseca normal, la deformación normal, es la proyeccio ́n del vector deformación <span class="math">\(\vec{\epsilon^n}\)</span>
+sobre <span class="math">\(\vec{n}\)</span> . Se obtiene mediante las expresiones:</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Tabla de Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">2. Deformaciones</a><ul>
+<li><a class="reference internal" href="#concepto-de-deformacion">2.1. Concepto de deformación</a></li>
+<li><a class="reference internal" href="#deformacion-en-el-entorno-de-un-punto">2.2. Deformación en el entorno de un punto</a><ul>
+<li><a class="reference internal" href="#vector-deformacion-componentes-intrinsecas">2.2.1. Vector deformación. Componentes intrínsecas</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Tema anterior</h4>
+  <p class="topless"><a href="tema1.html"
+                        title="capítulo anterior">1. Introduccíon a la Elasticidad y Resistencia de Materiales</a></p>
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/temas/tema2.rst.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Ir a" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="tema1.html" title="1. Introduccíon a la Elasticidad y Resistencia de Materiales"
+             >anterior</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">documentación de Resistencia - 1</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Derechos de autor 2018, JCR.
+      Creado con <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.6.
+    </div>
+  </body>
+</html>
