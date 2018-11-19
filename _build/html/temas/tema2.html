@@ -275,8 +275,75 @@ hay asociado un vector deformación <span class="math">\(\vec{\epsilon^r}\)</spa
  \end{split}
  \end{equation}\end{split}\]</div>
 <p>siendo (l, m, n) los cosenos directores (las componentes) del vector <span class="math">\(\vec{n}\)</span>.</p>
-<p>La componente intrínseca normal, la deformación normal, es la proyeccio ́n del vector deformación <span class="math">\(\vec{\epsilon^n}\)</span>
+<p>La componente intrínseca normal, la deformación normal, es la proyección del vector deformación <span class="math">\(\vec{\epsilon^n}\)</span>
 sobre <span class="math">\(\vec{n}\)</span> . Se obtiene mediante las expresiones:</p>
+<div class="math" id="equation-componentetanhencial">
+<span class="eqno">(12)<a class="headerlink" href="#equation-componentetanhencial" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{split}     \begin{equation}
+     \begin{split}
+     \begin{matrix}
+     \epsilon_{r}=\vec{\epsilon^r}\vec{n}&amp;\text{Vectorialmente}\\
+     \epsilon_{r}=n^T \epsilon^r=n^T\epsilon r&amp; \text{Matricialmente} \\
+     \end{matrix}
+     \end{split}
+     \end{equation}\end{split}\]</div>
+<div class="figure align-center" id="id8" style="width: 80%">
+<span id="deformacionintrinsecas"></span><a class="reference internal image-reference" href="../_images/2-8.jpg"><img alt="Deformación de una viga" src="../_images/2-8.jpg" style="width: 507.6px; height: 170.8px;" /></a>
+<p class="caption"><span class="caption-number">Figura 2.8 </span><span class="caption-text">Componentes intrínsecas del vector deformación</span></p>
+</div>
+<p>La <a class="reference internal" href="#deformacionintrinsecas"><span class="std std-numref">Figura 2.8</span></a> a) muestra gráficamente esta proyección. La deformación longitudinal
+unitaria se calcula mediante la expresión:</p>
+<div class="math" id="equation-componentenormal">
+<span class="eqno">(13)<a class="headerlink" href="#equation-componentenormal" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{split}\begin{equation}
+     \begin{split}
+         \begin{matrix}
+             \epsilon_{n}=\vec{\epsilon^n}\vec{n}&amp;\text{Vectorialmente}\\
+             \epsilon_{n}=n^T \epsilon^n=n^T\epsilon n&amp; \text{Matricialmente} \\
+         \end{matrix}
+     \end{split}
+ \end{equation}\end{split}\]</div>
+<p>La componente intrínseca tangencial (la deformación tangencial o transversal) <span class="math">\(\vec{\epsilon_t}\)</span> se define
+como la proyección del vector deformación sobre el plano definido por <span class="math">\(\vec{n}\)</span> ,
+tal como se muestra en la <a class="reference internal" href="#deformacionintrinsecas"><span class="std std-numref">Figura 2.8</span></a> a). Se calcula mediante las expresiones:</p>
+<div class="math" id="equation-componentetangencial">
+<span class="eqno">(14)<a class="headerlink" href="#equation-componentetangencial" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{split}     \begin{equation}
+         \begin{split}
+             \begin{matrix}
+                 \epsilon_{t}=\vec{\epsilon^t}\vec{t}&amp;\text{Vectorialmente}\\
+                 \epsilon_{t}=t^T \epsilon^r=t^T\epsilon r&amp; \text{Matricialmente} \\
+             \end{matrix}
+         \end{split}
+     \end{equation}\end{split}\]</div>
+<p>La componente intrínseca tangecial del vector deformación tangencial unitaria se
+calcula mediante las expresiones</p>
+<div class="math" id="equation-componentetangencial1">
+<span class="eqno">(15)<a class="headerlink" href="#equation-componentetangencial1" title="Enlace permanente a esta ecuación">¶</a></span>\[\begin{split}     \begin{equation}
+         \begin{split}
+             \begin{matrix}
+                 \epsilon_{t}=\vec{\epsilon^n}\vec{t}&amp;\text{Vectorialmente}\\
+                 \epsilon_{t}=t^T \epsilon^t=t^T\epsilon n&amp; \text{Matricialmente} \\
+             \end{matrix}
+         \end{split}
+     \end{equation}\end{split}\]</div>
+<p>siendo <span class="math">\(\vec{t}\)</span> el vector tangente al plano y perpendicular a <span class="math">\(\vec{n}\)</span>.</p>
+<p>La deformación tangencial también puede obtenerse vectorialmente, como:</p>
+<div class="math" id="equation-deformaciontangencial">
+<span class="eqno">(16)<a class="headerlink" href="#equation-deformaciontangencial" title="Enlace permanente a esta ecuación">¶</a></span>\[     \begin{equation}
+         \begin{split}
+         \left \| \epsilon_t \right \|=\left \| \vec{\epsilon^r}-\epsilon_r\vec{n} \right \|
+         \end{split}
+     \end{equation}\]</div>
+<p>o en el caso del vector deformación unitaria como:</p>
+<div class="math" id="equation-deformaciontangencialunitaria">
+<span class="eqno">(17)<a class="headerlink" href="#equation-deformaciontangencialunitaria" title="Enlace permanente a esta ecuación">¶</a></span>\[  \begin{equation}
+     \begin{split}
+          \left \| \epsilon_t \right \|=\left \| \vec{\epsilon^n}-\epsilon_n\vec{n} \right \|
+     \end{split}
+ \end{equation}\]</div>
+<p>La deformación angular <span class="math">\(\phi\)</span>, que se representa en la <a class="reference internal" href="#deformacionintrinsecas"><span class="std std-numref">Figura 2.8</span></a> b),
+coincide con la deformación tangencial unitaria <span class="math">\(\epsilon_t\)</span> expresada en radianes.</p>
+</div>
+<div class="section" id="deformaciones-principales-y-direcciones-principales-de-deformacion">
+<h3>2.2.2. Deformaciones principales y direcciones principales de deformación<a class="headerlink" href="#deformaciones-principales-y-direcciones-principales-de-deformacion" title="Enlazar permanentemente con este título">¶</a></h3>
 </div>
 </div>
 </div>
@@ -293,6 +360,7 @@ sobre <span class="math">\(\vec{n}\)</span> . Se obtiene mediante las expresione
 <li><a class="reference internal" href="#concepto-de-deformacion">2.1. Concepto de deformación</a></li>
 <li><a class="reference internal" href="#deformacion-en-el-entorno-de-un-punto">2.2. Deformación en el entorno de un punto</a><ul>
 <li><a class="reference internal" href="#vector-deformacion-componentes-intrinsecas">2.2.1. Vector deformación. Componentes intrínsecas</a></li>
+<li><a class="reference internal" href="#deformaciones-principales-y-direcciones-principales-de-deformacion">2.2.2. Deformaciones principales y direcciones principales de deformación</a></li>
 </ul>
 </li>
 </ul>

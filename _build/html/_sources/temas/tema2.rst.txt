@@ -331,8 +331,108 @@ Si se utiliza el vector unitario de :math:`\vec{r}` , denominado :math:`\vec{n}`
 
 siendo (l, m, n) los cosenos directores (las componentes) del vector :math:`\vec{n}`.
 
-La componente intrínseca normal, la deformación normal, es la proyeccio ́n del vector deformación :math:`\vec{\epsilon^n}`
+La componente intrínseca normal, la deformación normal, es la proyección del vector deformación :math:`\vec{\epsilon^n}`
 sobre :math:`\vec{n}` . Se obtiene mediante las expresiones:
+
+.. math::
+   :label: componentetanhencial
+
+        \begin{equation}
+        \begin{split}
+        \begin{matrix}
+        \epsilon_{r}=\vec{\epsilon^r}\vec{n}&\text{Vectorialmente}\\
+        \epsilon_{r}=n^T \epsilon^r=n^T\epsilon r& \text{Matricialmente} \\
+        \end{matrix}
+        \end{split}
+        \end{equation}
+
+.. _Deformacionintrinsecas:
+.. figure:: images/2-8.jpg
+   :figwidth: 80%
+   :scale: 40 %
+   :alt: Deformación de una viga
+   :align: center
+
+   Componentes intrínsecas del vector deformación
+
+La :numref:`Deformacionintrinsecas` a) muestra gráficamente esta proyección. La deformación longitudinal
+unitaria se calcula mediante la expresión:
+
+.. math::
+   :label: componentenormal
+
+   \begin{equation}
+        \begin{split}
+            \begin{matrix}
+                \epsilon_{n}=\vec{\epsilon^n}\vec{n}&\text{Vectorialmente}\\
+                \epsilon_{n}=n^T \epsilon^n=n^T\epsilon n& \text{Matricialmente} \\
+            \end{matrix}
+        \end{split}
+    \end{equation}
+
+La componente intrínseca tangencial (la deformación tangencial o transversal) :math:`\vec{\epsilon_t}` se define
+como la proyección del vector deformación sobre el plano definido por :math:`\vec{n}` ,
+tal como se muestra en la :numref:`Deformacionintrinsecas` a). Se calcula mediante las expresiones:
+
+.. math::
+   :label: componentetangencial
+
+        \begin{equation}
+            \begin{split}
+                \begin{matrix}
+                    \epsilon_{t}=\vec{\epsilon^t}\vec{t}&\text{Vectorialmente}\\
+                    \epsilon_{t}=t^T \epsilon^r=t^T\epsilon r& \text{Matricialmente} \\
+                \end{matrix}
+            \end{split}
+        \end{equation}
+
+La componente intrínseca tangecial del vector deformación tangencial unitaria se
+calcula mediante las expresiones
+
+.. math::
+   :label: componentetangencial1
+
+        \begin{equation}
+            \begin{split}
+                \begin{matrix}
+                    \epsilon_{t}=\vec{\epsilon^n}\vec{t}&\text{Vectorialmente}\\
+                    \epsilon_{t}=t^T \epsilon^t=t^T\epsilon n& \text{Matricialmente} \\
+                \end{matrix}
+            \end{split}
+        \end{equation}
+
+siendo :math:`\vec{t}` el vector tangente al plano y perpendicular a :math:`\vec{n}`.
+
+La deformación tangencial también puede obtenerse vectorialmente, como:
+
+.. math::
+   :label: deformaciontangencial
+
+        \begin{equation}
+            \begin{split}
+            \left \| \epsilon_t \right \|=\left \| \vec{\epsilon^r}-\epsilon_r\vec{n} \right \|
+            \end{split}
+        \end{equation}
+
+o en el caso del vector deformación unitaria como:
+
+.. math::
+   :label: deformaciontangencialunitaria
+
+     \begin{equation}
+        \begin{split}
+             \left \| \epsilon_t \right \|=\left \| \vec{\epsilon^n}-\epsilon_n\vec{n} \right \|
+        \end{split}
+    \end{equation}
+
+La deformación angular :math:`\phi`, que se representa en la :numref:`Deformacionintrinsecas` b),
+coincide con la deformación tangencial unitaria :math:`\epsilon_t` expresada en radianes.
+
+Deformaciones principales y direcciones principales de deformación
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
 
 
 
